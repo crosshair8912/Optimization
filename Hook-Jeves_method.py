@@ -33,7 +33,7 @@ def exploratore_move():
 	else:
 		return False
 		
-	#changing basic point per Y based on our discovery
+	#changing basic point per X based on our discovery
 	min_index_x = min(xrange(len(func)),key = func.__getitem__)
 	if min_index_x == 1:
 		bpt['x0'] = bpt['x0']+iv['x']
